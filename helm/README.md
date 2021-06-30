@@ -26,7 +26,7 @@ helm init --service-account tiller
 Starting from 3.0, tiller has been removed. There is no need to create a service account for tiller anymore. The only command that is mandatory is the helm repo add command below:
 
 ```
-helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+helm repo add stable https://charts.helm.sh/stable
 ```
 
 ## Setup S3 helm repository
